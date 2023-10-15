@@ -19,6 +19,7 @@ array1.forEach((element) => console.log(element));
 
 
 const Parrots = {
+name: "Parrots",
 language: "Surroundings",
 color: ["Yellow", "Green", "Blue", "Purple", "Red", "Orange", "Pink"], 
 Fly: "true",
@@ -27,6 +28,7 @@ Goat: "No",
 }
 
 const Penguins = {
+name:"Penguin",
 language: "Penguinanian",
 color: ["Black", "White"],
 Fly:"false",
@@ -35,6 +37,7 @@ Goat:"No",
 }
 
 const Duck = {
+name: "Duck",
 Language: "Quack",
 color: ["Yellow", "Green", "White", "Brown"],
 Fly:"True",
@@ -42,6 +45,7 @@ UsuallyEaten:"Yes",
 Goat:"No",
 }
 const Toucan= {
+    name: "Toucan",
     language: "Kakaw",
     color:["Yellow", "Red","Blue", "Orange", "Purple", "Green", "Rainbow" ],
     Fly: "True",
@@ -50,4 +54,4 @@ const Toucan= {
 }
 
 let Birds= [Toucan, Duck, Penguins, Parrots]
-Birds.forEach((yum) => console.log(yum));
+Birds.forEach((birds) => console.log(birds.name,birds.color,));
