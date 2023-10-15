@@ -1,17 +1,17 @@
-const chicago = ["monke","chiraq", "chief", "keef", "Marcoval", "YAzzing"];
-chicago[0] = "oblock";
-console.log(chicago);
-const result = chicago.filter((word) => word.length <= 4);
-console.log(result)
+//const chicago = ["monke","chiraq", "chief", "keef", "Marcoval", "YAzzing"];
+//chicago[0] = "oblock";
+////console.log(chicago);
+  //chicago.filter((word) => word.length <= 4);
+//console.log(result)
 
 
-const birds = ["Parrot", "Falcon", "Owl","marco"];
-console.log(birds.indexOf("Owl")); //  2
-console.log(birds.indexOf("marco")); // 3
+//const birds = ["Parrot", "Falcon", "Owl","marco"];
+//console.log(birds.indexOf("Owl")); //  2
+//console.log(birds.indexOf("marco")); // 3
 
-const array1 = ['a', 'b', 'c'];
+//const array1 = ['a', 'b', 'c'];
 
-array1.forEach((element) => console.log(element));
+//array1.forEach((element) => console.log(element));
 
 // Expected output: "a"
 // Expected output: "b"
@@ -54,4 +54,9 @@ const Toucan= {
 }
 
 let Birds= [Toucan, Duck, Penguins, Parrots]
+Birds.forEach((birds)=> console.log(birds.name))
 Birds.forEach((birds) => console.log(birds.name,birds.color,));
+
+const mara= Birds.filter((Birds)=> Birds.UsuallyEaten ==="No")
+
+mara.forEach((dad)=> console.log(dad.name))
