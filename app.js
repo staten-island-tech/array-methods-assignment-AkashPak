@@ -49,5 +49,5 @@ const Toucan= {
     Goat:"Fruit Loops",
 }
 
-const Birds= [Parrots,Penguins,Duck,Toucan]
+let Birds= [Toucan, Duck, Penguins, Parrots]
 Birds.forEach((yum) => console.log(yum));
