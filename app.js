@@ -47,7 +47,7 @@ Goat:"No",
 const Toucan= {
     name: "Toucan",
     language: "Kakaw",
-    color:["Yellow", "Red","Blue", "Orange", "Purple", "Green", "Rainbow" ],
+    color:["Yellow", "Red","Blue", "Orange", "Purple", "Green", "Rainbow"],
     Fly: "True",
     UsuallyEaten:"No",
     Goat:"Fruit Loops",
@@ -55,7 +55,7 @@ const Toucan= {
 
 let Birds= [Toucan, Duck, Penguins, Parrots]
 Birds.forEach((birds)=> console.log(birds.name))
-Birds.forEach((birds) => console.log(birds.color))
+Birds.forEach((bir) => console.log(bir.color))
 const mara= Birds.filter((Birds)=> Birds.UsuallyEaten ==="No")
 
 mara.forEach((birds)=> console.log(birds.name))
