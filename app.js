@@ -55,7 +55,7 @@ const Toucan= {
 
 let Birds= [Toucan, Duck, Penguins, Parrots]
 Birds.forEach((birds)=> console.log(birds.name))
-Birds.forEach((bir) => console.log(bi.color))
+Birds.forEach((bi) => console.log(bi.color))
 const mara= Birds.filter((Birds)=> Birds.UsuallyEaten ==="No")
 
 mara.forEach((birds)=> console.log(birds.name))
